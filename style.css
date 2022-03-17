@@ -1,0 +1,58 @@
+body {
+    background-color: #121212;
+    color: #eee;
+    font-family: "Perpetua", serif;
+  }
+
+table, th, td {
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: #777;
+}
+
+th {
+    font-size: x-large;
+}
+
+th, td {
+    font-size: large;
+    padding: 10px;
+}
+
+h1 {
+    font-size: xx-large;
+    color: #f60;
+    text-align: center;
+}
+
+h2 {
+    font-size: x-large;
+    color: #ed0;
+    text-align: center;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* Hide the slides by default */
+.mySlides {
+    display: none;
+}
